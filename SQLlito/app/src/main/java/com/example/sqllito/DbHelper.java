@@ -20,7 +20,7 @@ public class DbHelper extends SQLiteOpenHelper {
         db.execSQL(" CREATE TABLE " + TABLE_USUARIOS +"("+
                 "id INTEGER PRIMARY KEY," +
                 "nombre TEXT," +
-                "dni TEXT )");
+                "descripcion TEXT )");
     }
 
     @Override
